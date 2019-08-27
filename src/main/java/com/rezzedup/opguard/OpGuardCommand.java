@@ -86,7 +86,7 @@ final class OpGuardCommand implements ExecutableCommand
     
     private void usage(CommandSender sender)
     {
-        String usage = "&f(&6&lOpGuard &6v" + api.getPlugin().getDescription().getVersion() + " Usage&f)\n";
+        String usage = "&f(&6&lOP FPMC &6v" + api.getPlugin().getDescription().getVersion() + " Usage&f)\n";
         usage += "&6/&eopguard &oop &7<&fplayer&7> <&fpassword&7 (if set)>\n";
         usage += "&6/&eopguard &odeop &7<&fplayer&7> <&fpassword&7 (if set)>\n";
         usage += "&6/&eopguard &olist\n";
